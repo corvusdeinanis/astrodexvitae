@@ -1,4 +1,4 @@
-const { userComputed } = require("../../../js/userUtils");
+const { userComputed } = require("../../js/userUtils");
 
 module.exports = {
   userComputed: (data) => userComputed(data),
