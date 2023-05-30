@@ -1,6 +1,13 @@
 ---
-sort: 4
-tags: ["basics"]
+{
+  "title": "test",
+  "date": "2023-05-30",
+  "tags": ["test","pkm"],
+  "dg-publish": true,
+  "dgPassFrontmatter": "true",
+  "dg-site-icon": "1",
+  "noteIcon": "1",
+}
 ---
 
 Congratulations! You have successfully created your first note. Now go ahead and make your notes more useful:
