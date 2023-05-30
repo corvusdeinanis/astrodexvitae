@@ -7,4 +7,3 @@ Welcome to **Eleventy Notes**, an opinionated template for publishing your perso
 
 Eleventy Notes has many great features you'll love:
 
-[[willcomesoon]]
