@@ -4,7 +4,7 @@ const defaultConfig = {
   title: "Notes",
   description: "Notes app",
   theme: {
-    color: "sky",
+    color: "purple",
   },
   sidebar: {
     links: [],
