@@ -1,6 +1,4 @@
-const { getGraph } = require("../../helpers/linkUtils");
-const { getFileTree } = require("../../helpers/filetreeUtils");
-const { userComputed } = require("../../helpers/userUtils");
+const { userComputed } = require("../userUtils");
 
 module.exports = {
   graph: (data) => getGraph(data),
