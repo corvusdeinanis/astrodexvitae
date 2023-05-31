@@ -1,11 +1,6 @@
 module.exports = function () {
-    return [
-      {% for page in collections.notes %}
-        {
-          emoji: "{{ page.data.emoji }}",
-          url: "{{ page.url }}"
-        },
-      {% endfor %}
-    ];
-  };
-  
+  return this.collections.notes.map((page) => ({
+    emoji: page.data.emoji,
+    url: page.url,
+  }));
+};

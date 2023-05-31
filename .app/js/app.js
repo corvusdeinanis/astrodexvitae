@@ -8,6 +8,5 @@ import "./nav";
 import "./search";
 import "./scroll-anchor";
 import "./scroll-position";
-import "./notes"
 
 Alpine.start();
