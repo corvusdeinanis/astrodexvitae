@@ -3,6 +3,17 @@ panel: true
 ---
 
 <!doctype html>
+<style>
+  .icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 24px;
+  }
+</style>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -21,7 +32,7 @@ panel: true
       {% include 'partials/app-header.njk' %}
       
 {% for note in collections.notesWithTreeIcon %}
-🌳
+  <span class="icon">🌳</span>
 {% endfor %}
 
       <div class="app-layout__wrapper">
