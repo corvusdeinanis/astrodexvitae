@@ -58,6 +58,11 @@
     </ul>
   </nav>
 
+    <div class="forest">
+    {% include 'partials/forest.njk' %}
+    </div>
+
+
   {% if app.sidebar.links.length %}
     <nav aria-labelledby="app:sidebar:section:links" class="nav-section nav-section--continued">
       <h3 id="app:sidebar:section:links" class="visually-hidden">Links</h3>
@@ -150,5 +155,4 @@
       </ul>
     </nav>
   {% endif %}
-    {% include 'partials/forest.njk' %}
 </aside>
