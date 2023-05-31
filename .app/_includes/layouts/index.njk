@@ -19,9 +19,8 @@ panel: true
 
     <div class="app-layout">
       {% include 'partials/app-header.njk' %}
-      {% for note in collections.notesWithTreeIcon %}
-<img src="/_data/icon.svg" alt="Tree icon">
-{% endfor %}
+       {% include 'partials/forest.njk' %}
+
 
       <div class="app-layout__wrapper">
         <div class="app-layout__sidebar">
