@@ -31,11 +31,8 @@ panel: true
     <div class="app-layout">
       {% include 'partials/app-header.njk' %}
       
-{% for note in collections.notesWithTreeIcon %}
-  <span class="icon">🌳</span>
-{% endfor %}
 
-does this work 🤡
+
 
       <div class="app-layout__wrapper">
         <div class="app-layout__sidebar">
@@ -51,5 +48,8 @@ does this work 🤡
       {{ 'hash' | feather({ id: 'icon-hash' }) | safe }}
       {{ 'file-text' | feather({ id: 'icon-file-text' }) | safe }}
     </div>
+
+
+
   </body>
 </html>

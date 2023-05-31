@@ -7,7 +7,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setServerOptions({
     watch: ["dist/app.js", "dist/app.*.css"],
   });
-
+ 
   return {
     pathPrefix: process.env.ELEVENTY_NOTES_PATH_PREFIX || undefined,
     dir: {
@@ -17,5 +17,7 @@ module.exports = (eleventyConfig) => {
       includes: ".app/_includes",
     },
     markdownTemplateEngine: false,
+    passthroughFileCopy: true,
+
   };
 };
