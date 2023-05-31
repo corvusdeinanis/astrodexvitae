@@ -1,6 +1,7 @@
 ---
 title: "Attachment"
 tags: ['psychology']
+icon: "tree"
 ---
 
 # definition 

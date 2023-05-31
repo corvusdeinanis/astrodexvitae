@@ -1,6 +1,7 @@
 ---
 title: "Albert Bandura"
 tags: ['psychology','person']
+icon: "tree"
 ---
 
 1) Bobo Doll experiment 
