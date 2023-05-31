@@ -7,7 +7,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setServerOptions({
     watch: ["dist/app.js", "dist/app.*.css"],
   });
-  eleventyConfig.setTemplateEngine("njk");
 
   eleventyConfig.addCollection("notes", function (collection) {
     return collection.getAllSorted().filter((item) => item.data.emoji);
