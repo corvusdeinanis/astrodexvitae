@@ -30,10 +30,11 @@ panel: true
 
     <div class="app-layout">
       {% include 'partials/app-header.njk' %}
-      
-
-
-
+      <ul>
+<li>
+        <a href="{{ note.url }}">{{ note.emoji }}</a>
+      </li>
+<ul>
       <div class="app-layout__wrapper">
         <div class="app-layout__sidebar">
           {% include 'partials/sidebar.njk' %}
