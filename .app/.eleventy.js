@@ -8,9 +8,7 @@ module.exports = (eleventyConfig) => {
     watch: ["dist/app.js", "dist/app.*.css"],
   });
 
-  eleventyConfig.addCollection("notes", function (collection) {
-    return collection.getAllSorted().filter((item) => item.data.emoji);
-  });
+
 
   return {
     pathPrefix: process.env.ELEVENTY_NOTES_PATH_PREFIX || undefined,
